@@ -5,39 +5,10 @@
 package classemusic;
 
 
-public class Interprete {
-    String cantor;
-    String pais;
-    String dataNasc;
+public class Interprete extends Mae {
     
-    
-public Interprete(String cantor, String pais, String dataNasc) {
-        this.cantor = cantor;
-        this.pais = pais;
-        this.dataNasc = dataNasc;
-    }
-    public String getCantor() {
-        return cantor;
+    public Interprete(String nome, String pais, String ano) {
+        super(nome, pais, ano);
     }
 
-    public void setCantor(String cantor) {
-        this.cantor = cantor;
-    }
-
-    public String getPais() {
-        return pais;
-    }
-
-    public void setPais(String pais) {
-        this.pais = pais;
-    }
-
-    public String getDataNasc() {
-        return dataNasc;
-    }
-
-    public void setDataNasc(String dataNasc) {
-        this.dataNasc = dataNasc;
-    }
-   
 }
